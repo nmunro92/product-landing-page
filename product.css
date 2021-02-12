@@ -7,7 +7,7 @@ body {
     background-color: #f7f7f7;
 }
 
-img{
+#header-img{
     height: 80px;
 }
 header{
@@ -67,6 +67,33 @@ nav > ul {
     padding: 10px;
     color:rgb(255, 255, 255);
     border-radius: 1.25em;
+}
+
+#icon {
+    height: 50px;
+}
+
+#features {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ #local {
+    display: flex;
+    align-items: center;
+}
+
+#ship-text {
+    padding-left: 19px;
+}
+
+#local-text {
+    padding-left: 30px;
+}
+
+#response-text {
+    padding-left: 58px;
 }
 
 a {
