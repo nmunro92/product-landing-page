@@ -1,5 +1,10 @@
+html{
+    font-family: Georgia,Times,Times New Roman,serif;
+    color:rgb(75, 74, 74)
+}
+
 body {
-    background-color: rgb(68, 67, 67);
+    background-color: #f7f7f7;
 }
 
 img{
@@ -10,16 +15,18 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: #f7f7f7;
     margin: 10px;
     display: flex;
     margin: 0;
+    
 }
 
 #nav-bar {
     position: fixed;
     top: 0;
     right: 0;
+    
 }
 
 nav > ul {
@@ -28,6 +35,9 @@ nav > ul {
     padding: 0;
     justify-content: space-around;
     width: 35vw;
+    padding-top: 15px;
+    list-style-type: none;
+
 }
 
 #form-section {
@@ -35,10 +45,40 @@ nav > ul {
     text-align: center;
 }
 
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 1.25em;
+    width: 200px;
+    text-align: center;
+    outline: none;
+    border: 1px solid rgb(139, 136, 136)
+}
+
+.btn {
+    border: none;
+    background-color: orange;
+    padding: 10px;
+    color:rgb(255, 255, 255);
+    border-radius: 1.25em;
+}
+
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(75, 74, 74)
+    ;
 }
 a:hover{
     text-decoration: underline;
+}
+
+.btn:hover{
+    background-color: lightgreen;
+    color: black
 }
