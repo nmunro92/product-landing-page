@@ -109,3 +109,31 @@ a:hover{
     background-color: lightgreen;
     color: black
 }
+
+@media (min-width: 450px) {
+    #nav-bar {
+        right: 65px;
+        top: 0;
+    }
+
+    nav > ul {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    header {
+        font-size: 40px;
+    }
+    #features {
+        font-size: 33px; 
+        
+    }
+    #email {
+        width: 450px;
+        height: 40px;
+        font-size: 38px;
+    }
+    .btn {
+        font-size: xx-large;
+    }
+
+}
