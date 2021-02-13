@@ -96,6 +96,38 @@ nav > ul {
     padding-left: 58px;
 }
 
+#demo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pricing {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-self: center;
+    
+}
+#pricing-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+#lowest-price, #middle-price, #monster-price {
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+#price-head {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
     color: rgb(75, 74, 74)
@@ -110,7 +142,7 @@ a:hover{
     color: black
 }
 
-@media (min-width: 450px) {
+/*@media (max-width: 450px) {
     #nav-bar {
         right: 65px;
         top: 0;
@@ -136,4 +168,5 @@ a:hover{
         font-size: xx-large;
     }
 
-}
+}*/
+
