@@ -114,6 +114,7 @@ nav > ul {
     align-items: center;
     flex-direction: column;
     align-self: center;
+    padding-bottom: px;
 }
 
 #lowest-price, #middle-price, #monster-price {
@@ -126,6 +127,16 @@ nav > ul {
 }
 #price-head {
     text-align: center;
+}
+
+#footer-links {
+    display: inline;
+    position: absolute;
+    right: 0;
+}
+
+#footer-links > a {
+    padding: 5px;
 }
 
 a {
